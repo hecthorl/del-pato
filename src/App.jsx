@@ -5,9 +5,9 @@ import GifExpertApp from './GifyExpertApp';
 const App = () => {
    
    return (
-         <div className="w-full h-full bg-gradient-to-br from-lightBlue-400 to-indigo-500 pb-10">
+         <div className="w-full h-full bg-gradient-to-br from-light-blue-400 to-indigo-800 pb-10">
             <h1 
-            className="text-cyan-300 text-8xl underline text-center py-10"
+            className="text-cyan-700 text-8xl underline text-center py-10"
             > Giffy!!!
             </h1>
             <hr className="m-10 border border-black"/>

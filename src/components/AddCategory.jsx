@@ -23,7 +23,7 @@ const AddCategory = ({setCategorias}) => {
       >
          <h1 className="text-center my-5 h-10">{inputValue}</h1>
          <input 
-            className="border-2 text-green-600 border-red-600 focus:outline-none focus:border-blue-600 rounded h-8 w-60 p-2" 
+            className="border-2 text-cyan-600 border-light-blue-50 focus:outline-none focus:border-fuchsia-700  rounded h-8 w-60 p-2" 
             type="text"
             value={inputValue}
             key="input"

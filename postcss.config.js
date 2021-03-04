@@ -1,7 +1,3 @@
-/**
- * *It doesn't matters
- */
-
 module.exports = {
    plugins: [
       require('tailwindcss'),
