@@ -5,13 +5,11 @@ const getGifs = async cat => {
    const resp = await fetch(baseUrl);
    const {data} = await resp.json();
 
-   const gifs = data.map(img => {
-      return {
+   const gifs = data.map(img =>({
          id: img.id,
          title: img.title,
          img_url: img.images.downsized_medium.url
-      }
-   })
+      })
 
    return gifs;
 };
